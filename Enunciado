@@ -1,0 +1,31 @@
+Enunciado do Projeto: Sistema de Gerenciamento de Biblioteca com SQLite
+
+Objetivo: Desenvolver um sistema simples de gerenciamento de uma biblioteca utilizando o banco de dados SQLite. O sistema deve permitir o gerenciamento de autores, livros e empréstimos de livros para usuários.
+
+Requisitos:
+
+Tabelas no Banco de Dados:
+
+Autores: Armazena informações dos autores (ID, nome, nacionalidade).
+Livros: Armazena informações dos livros (ID, título, ano de publicação, gênero, ID do autor).
+Empréstimos: Armazena os dados dos empréstimos realizados (ID, ID do livro, data de empréstimo, data de devolução, nome do usuário).
+Funcionalidades:
+
+Criar tabelas para autores, livros e empréstimos.
+Inserir dados de autores, livros e empréstimos no banco de dados.
+Exibir todos os autores cadastrados.
+Exibir todos os livros disponíveis na biblioteca.
+Exibir os empréstimos realizados, mostrando quais livros estão emprestados e quais foram devolvidos.
+Validação:
+
+A tabela de Livros deve ter uma chave estrangeira que referencia a tabela de Autores.
+A tabela de Empréstimos deve ter uma chave estrangeira que referencia a tabela de Livros.
+Exibição:
+
+O sistema deve exibir os dados inseridos no banco de dados, mostrando autores, livros e empréstimos registrados.
+Instruções para Execução:
+
+Conecte-se ao banco de dados SQLite e crie as tabelas conforme especificado.
+Insira registros de autores, livros e empréstimos.
+Execute consultas para listar os dados inseridos.
+Utilize o Python com a biblioteca sqlite3 para realizar todas as operações de manipulação de banco de dados.
