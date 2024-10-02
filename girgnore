@@ -1,0 +1,26 @@
+# Arquivos e pastas comuns a serem ignorados
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pdb
+
+# Arquivos do banco de dados SQLite
+*.db
+*.sqlite3
+
+# Ambientes virtuais Python
+venv/
+env/
+ENV/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs e metadados
+*.log
+
+# Configurações de IDEs
+.vscode/
+.idea/
